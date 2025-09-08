@@ -50,23 +50,34 @@ print(type("hello"))
 # prints: <class 'str'>
 
 
-# Below is class of integer
+# Below is class of integer - whole numbers
 print(type(25))
 
 
+# floating numbers - numbers with decimal in them
 print(type(3.141592654))
 
+
+# booleans in conditional expressions - except they are written with capitals - e.g. True or False
 print(type(True))
 
+
+# Similar to JS's null and undefined (python kind of combines the two)
 print(type(None))
 # prints: `<class 'NoneType'>`
 
-num_tacos = 25
-# this won't work msg = "There are " + num_tacos + " tacos."
-# TypeError: can only concatenate str (not "int") to str
 
-msg = "There are " + str(num_tacos) + " tacos." #this will work because creating a string
+num_tacos = 25
+# this won't work right here --> msg = "There are " + num_tacos + " tacos."
+# TypeError: can only concatenate str (not "int") to str
+# no type coercion in python
+
+
+msg = "There are " + str(num_tacos) + " tacos." 
+#this will work because creating a string
+# Have to change the number to a string and then add three strings together.
 print(msg)
+
 
 # str(item)        # Converts `item` to a string
 # int(item, base)  # Converts `item` to an integer with the provided `base`
@@ -76,5 +87,4 @@ print(msg)
 # tuple(item)      # Converts `item` to a tuple
 # list(item)       # Converts `item` to a list
 # dict(item)       # Converts `item` to a dictionary
-
 
