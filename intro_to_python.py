@@ -148,3 +148,7 @@ num *= 3
 # Can't use num++
 # A couple of our favorite operators in JavaScript, increment (++) and decrement (–), 
 # do not exist in Python. Use += 1 and -= 1 instead.
+
+# --------------------------------------------------------------------------
+
+# Working with Strings
