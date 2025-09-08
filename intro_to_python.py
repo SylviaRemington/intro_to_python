@@ -31,6 +31,14 @@ my_number = 10
 my_number = -5
 # print(my_number)
 
+'''
+- Python is a true object-oriented programming language.
+- Every piece of data in Python is an object that's an instance of a class.
+- A class is a blueprint for creating objects. This means that a string object will have 
+different attributes and methods than an integer object because the string was created from 
+a different blueprint than the integer.
+'''
+
 print(type("hello"))
 # prints: <class 'str'>
 
