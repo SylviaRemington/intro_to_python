@@ -31,6 +31,12 @@ my_number = 10
 my_number = -5
 # print(my_number)
 
+MY_FAVORITE_NUMBER = 5
+# This communicateds that variable is not meant to be reassigned... however
+# it can be reassigned. This is called SCREAMING_SNAKE_CASE.
+# Class of string
+print(type("wuzzup"))
+
 '''
 - Python is a true object-oriented programming language.
 - Every piece of data in Python is an object that's an instance of a class.
@@ -39,10 +45,14 @@ different attributes and methods than an integer object because the string was c
 a different blueprint than the integer.
 '''
 
+# Class of string - class is a blueprint for printing out these objects
 print(type("hello"))
 # prints: <class 'str'>
 
+
+# Below is class of integer
 print(type(25))
+
 
 print(type(3.141592654))
 
