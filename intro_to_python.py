@@ -76,6 +76,8 @@ num_tacos = 25
 msg = "There are " + str(num_tacos) + " tacos." 
 #this will work because creating a string
 # Have to change the number to a string and then add three strings together.
+
+# python is printing out the message for the above string combination
 print(msg)
 
 
