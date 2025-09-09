@@ -179,3 +179,52 @@ year = 1959
 message = f"{state} was the last state to join the U.S. in {year}."
 print(message)
 # prints: Hawaii was the last state to join the U.S. in 1959.
+
+
+# Useful String Methods
+
+print("ace of spades".split(" "))
+# prints: ['ace', 'of', 'spades']
+
+# however, this won't work:
+# print("abcd".split(""))
+# ValueError: empty separator
+# It's calling a split method directly on a string.
+
+# instead, use the list() function like this:
+print(list("abcd"))
+# prints: ['a', 'b', 'c', 'd']
+
+# get the index of a substring:
+print("abcd".index("c"))    
+# prints: 2
+
+# this method raises an error if the substring is not found:
+# print("abcd".index("e"))
+# ValueError: substring not found
+
+# .find() is similar to .index() but returns -1 if the substring is not found
+# this behavior may be preferable to raising an error:
+print("abcd".find("e"))
+# prints: -1
+
+# uppercase - changing everything to uppercase in python
+print("boo".upper())
+# prints: 'BOO'
+
+# lowercase - changing everything to lowercase in python
+print("WHY???".lower())
+# prints: 'why???'
+
+print("Then I went to the store I like".replace("I", "you"))
+# prints: 'Then you went to the store you like'
+
+
+# in operator - checking if string contains a substring
+print("eggs" in "green eggs and ham")
+# prints: True
+
+
+# len() function - is the length of the string
+print(len("Tacos"))
+# prints: 5
