@@ -152,3 +152,30 @@ num *= 3
 # --------------------------------------------------------------------------
 
 # Working with Strings
+# Write multiline strings, perform string interpolation, and use string methods to work with 
+# string types in Python
+my_string = "A double-quoted string"
+your_string = 'A single quoted string'
+
+multiline_string = '''This is my string that
+                      goes on multiple lines
+                      for whatever reason'''
+
+# Above assigning it to a variable so that we can work with it later - so there is a relationship
+# with comments and strings
+
+
+# Concatenating strings
+little_string = "bad"
+medium_string = "super"
+long_string = medium_string + little_string
+print(long_string)
+# prints: superbad
+
+
+# String interpolation using f-Strings
+state = "Hawaii"
+year = 1959
+message = f"{state} was the last state to join the U.S. in {year}."
+print(message)
+# prints: Hawaii was the last state to join the U.S. in 1959.
