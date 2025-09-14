@@ -228,3 +228,5 @@ print("eggs" in "green eggs and ham")
 # len() function - is the length of the string
 print(len("Tacos"))
 # prints: 5
+
+
